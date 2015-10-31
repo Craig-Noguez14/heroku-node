@@ -34,11 +34,11 @@ var admin = '76561198110421992'; //craigles61493
 //var admin = '76561198207211873'; //Newwow14@gmail.com - Bot1
 var steam = new Steam.SteamClient();
 var offers = new SteamTradeOffers();
-
+console.log(steam);
 steam.logOn({
     accountName: 'craigles61493',
     password: 'summer#14',
-    authCode: 'XY93Y',
+    authCode: 'QXVR3',
     shaSentryfile: (fs.existsSync('sentryfile') ? fs.readFileSync('sentryfile') : undefined)
 });
 
